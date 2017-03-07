@@ -15,7 +15,7 @@ import java.security.InvalidParameterException;
 public class DataManagerTest {
 
 	@Test
-	public void dataManagerTestA() {
+	public void webapp_DataManager_dataManagerTestA() {
 		try {
 			DataManager.init(null);
 			Assert.fail("the flow MUST have been fallen before");
@@ -26,19 +26,19 @@ public class DataManagerTest {
 	}
 
 	@Test
-	public void dataManagerTestB() {
+	public void webapp_DataManager_dataManagerTestB() {
 		DataManager.loadData();
 		Assert.assertEquals(DataManager.isInitialized(), false);
 	}
 
 	@Test
-	public void failTestForCoverageAnalysisB() {
+	public void webapp_DataManager_failTestForCoverageAnalysisB() {
 		DataManager.loadData();
 		Assert.assertEquals(true, true);
 	}
 
 	@Test
-	public void dataManagerTestC() {
+	public void webapp_DataManager_dataManagerTestC() {
 		try {
 			DataManager.getAll();
 			Assert.fail("the flow MUST have been fallen before");
@@ -49,7 +49,7 @@ public class DataManagerTest {
 	}
 
 	@Test
-	public void dataManagerTestD() {
+	public void webapp_DataManager_dataManagerTestD() {
 		try {
 			DataManager.getBand(0);
 			Assert.fail("the flow MUST have been fallen before");
@@ -60,7 +60,7 @@ public class DataManagerTest {
 	}
 
 	@Test
-	public void dataManagerTestE() {
+	public void webapp_DataManager_dataManagerTestE() {
 		try {
 			DataManager.upVoteBand(0);
 			Assert.fail("the flow MUST have been fallen before");

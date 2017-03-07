@@ -30,7 +30,7 @@ public class BandTest {
 	}
 
 	@Test
-	public void bandTestA() {
+	public void webapp_BandTest_bandTestA() {
 		try {
 			Band band = new Band(null);
 			Assert.fail("the flow MUST have been fallen before");
@@ -40,7 +40,7 @@ public class BandTest {
 	}
 
 	@Test
-	public void bandTestB() {
+	public void webapp_BandTest_bandTestB() {
 		try {
 			Band band = new Band(new JSONObject());
 			Assert.fail("the flow MUST have been fallen before");
@@ -51,7 +51,7 @@ public class BandTest {
 	}
 
 	@Test
-	public void bandTestC() {
+	public void webapp_BandTest_bandTestC() {
 		test.remove("name");
 		test.remove("logo");
 		Band band = new Band(test);
@@ -64,13 +64,13 @@ public class BandTest {
 
 	@Test
 	@Ignore
-	public void bandTestD() {
+	public void webapp_BandTest_bandTestD() {
 		Band band = new Band(test);
 		Assert.assertEquals(test.toString(), band.toJSON().toString());
 	}
 
 	@Test
-	public void bandTestE() {
+	public void webapp_BandTest_bandTestE() {
 		Band band = new Band(test);
 		JSONObject tmp = new JSONObject();
 		tmp.put("id", test.get("id"));
