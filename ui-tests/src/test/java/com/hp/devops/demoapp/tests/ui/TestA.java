@@ -111,6 +111,12 @@ public class TestA {
         Assert.assertTrue(true);
     }
 
+    @Test
+    public void alex1AlwaysFail() {
+        System.out.println("Proudly  running test " + Thread.currentThread().getStackTrace()[1]);
+        Assert.assertTrue(false);
+    }
+
     @AfterClass
     static public void afterAll() {
         driver.quit();
