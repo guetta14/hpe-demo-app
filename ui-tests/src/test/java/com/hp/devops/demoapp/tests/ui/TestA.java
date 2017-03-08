@@ -33,44 +33,7 @@ public class TestA {
     @BeforeClass
     static public void beforeAll() {
 
-        if(isMusicApp){
-            testProxy = "web-proxy.bbn.hp.com:8081";
-            //appUrl = "http://54.146.140.70:9000";
-            appUrl = "http://54.146.140.70:9001";
-        } else {
-            testProxy = "";
-            appUrl = "http://myd-vm02771.hpswlabs.adapps.hp.com:8080/jenkins";
-        }
-
-        if ("true".equals(System.getProperty("proxy"))) {
-            isBehindProxy = true;
-            System.out.println("isBehindProxy is true!");
-            if (System.getenv("testproxy") != null) {
-                testProxy = System.getenv("testproxy");
-            }
-            System.out.println("testProxy is " + testProxy + "; can be modified via environment variable, i.e., 'export testproxy=web-proxy.bbn.hp.com:8080'");
-        }
-        else {
-            System.out.println("We do not use proxy.");
-        }
-
-        if (isBehindProxy) {
-            Proxy proxy = new Proxy();
-            proxy.setHttpProxy(testProxy);
-            DesiredCapabilities cap = new DesiredCapabilities();
-            cap.setCapability(CapabilityType.PROXY, proxy);
-            driver = new HtmlUnitDriver(cap);
-        }
-        else {
-            driver = new HtmlUnitDriver();
-        }
-        if (System.getProperty("appUrl") != null) {
-            appUrl = System.getProperty("appUrl");
-        }
-        System.out.println("App URL is " + appUrl + "; can be modifed via system property, i.e., '-DappUrl=\"http://54.146.140.70:9000\"'");
-
-        driver.get(appUrl);
-
+     driver=new SetUp().setup_ui_tests(isMusicApp);
     }
 
     // user story #1067

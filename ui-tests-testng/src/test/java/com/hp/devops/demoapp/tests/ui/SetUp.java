@@ -17,6 +17,9 @@ public class SetUp {
     private String proxyHost;   //  web-proxy.bbn.hp.com
     private String proxyPort;   //  8080
     private String appUrl = "";
+    private String testProxy;
+    private boolean isBehindProxy = false;
+
 
     public WebDriver setUp(boolean isMusicApp ) {
 

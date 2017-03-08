@@ -57,7 +57,7 @@ public class TestCreator {
             "            appUrl = \"http://54.146.140.70:9000\";\n" +
             "        } else {\n" +
             "            testProxy = \"\";\n" +
-            "            appUrl = \"http://myd-vm02771.hpswlabs.adapps.hp.com:8080/jenkins\";\n" +
+            "            appUrl = \"http://myd-vm10629.hpeswlab.net:8080/jenkins\";\n" +
             "        }\n" +
             "\n" +
             "        if (\"true\".equals(System.getProperty(\"proxy\"))) {\n" +

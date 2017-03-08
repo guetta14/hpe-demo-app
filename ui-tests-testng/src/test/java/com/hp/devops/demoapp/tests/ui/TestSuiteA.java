@@ -1,13 +1,8 @@
 package com.hp.devops.demoapp.tests.ui;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
-import org.openqa.selenium.remote.CapabilityType;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -28,6 +23,7 @@ public class TestSuiteA {
     @BeforeClass(alwaysRun = true)
     public void beforeClass() {
        driver= new SetUp().setUp(isMusicApp);
+
     }
 
     @Test(groups = {"Group_A"})
