@@ -31,7 +31,7 @@ public class TestSuiteB {
     }
 
     @Test(groups = {"Group_B"})
-    public void testCaseA() {
+    public void ui_tests_TestSuiteB_testCaseA() {
         System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
         WebElement query;
         if (isMusicApp) {
@@ -46,7 +46,7 @@ public class TestSuiteB {
     }
 
     @Test
-    public void testCaseB() {
+    public void ui_tests_TestSuiteB_testCaseB() {
         System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
         WebElement query;
         if(isMusicApp){
@@ -61,7 +61,7 @@ public class TestSuiteB {
     }
 
     @Test(groups = {"Group_B"})
-    public void testCaseC() {
+    public void ui_tests_TestSuiteB_testCaseC() {
         System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
         try {
             Thread.sleep(1000);
