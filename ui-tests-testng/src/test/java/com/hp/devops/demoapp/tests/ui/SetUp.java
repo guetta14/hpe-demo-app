@@ -20,6 +20,7 @@ public class SetUp {
     private String testProxy;
     private boolean isBehindProxy = false;
 
+    public static final String serverAddress = "myd-vm10629.hpeswlab.net";
 
     public WebDriver setUp(boolean isMusicApp ) {
 
@@ -40,7 +41,7 @@ public class SetUp {
         else {
             proxyHost = "";
             proxyPort = "";
-            autHost = "http://myd-vm10629.hpeswlab.net";
+            autHost = "http://" + serverAddress;
             autPort = "8080";
             appUrl = autHost + ":" + autPort ;
         }

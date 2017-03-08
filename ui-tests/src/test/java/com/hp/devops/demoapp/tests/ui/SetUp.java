@@ -19,6 +19,7 @@ public class SetUp {
     private String appUrl = "";
     private String testProxy;
     private boolean isBehindProxy = false;
+    public static final String serverAddress = "myd-vm10629.hpeswlab.net";
 
     public WebDriver setup_ui_tests(boolean isMusicApp ) {
         if(isMusicApp){
@@ -27,7 +28,7 @@ public class SetUp {
            appUrl = "http://54.146.140.70:9001";
         } else {
             testProxy = "";
-            appUrl = "http://myd-vm10629.hpeswlab.net:8080";
+            appUrl = "http://"+serverAddress+":8080";
         }
 
         if ("true".equals(System.getProperty("proxy"))) {
