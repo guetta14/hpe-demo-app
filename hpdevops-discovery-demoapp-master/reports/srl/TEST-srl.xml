@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="1" name="Marina" tests="1">
+    <properties>
+        <property name="generator" value="StormRunner Load"/>
+        <property name="testId" value="2"/>
+        <property name="runId" value="3"/>
+        <property name="statusDescription">success</property>
+        <property name="reportUrl"
+                  value="https://stormrunner-load.saas.hpe.com:443/run-overview/3/report/?TENANTID=653111678&amp;projectId=1"/>
+        <property name="dashboardUrl"
+                  value="https://stormrunner-load.saas.hpe.com:443/run-overview/3/dashboard/?TENANTID=653111678&amp;projectId=1"/>
+    </properties>
+    <testcase classname="Test" name="Marina" status="FAILED" time="84.147">
+        <failure message="Test run status is FAILED" type="FAILED">200</failure>
+    </testcase>
+</testsuite>

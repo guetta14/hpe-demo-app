@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features version="1"><feature name="My Amazing Feature" path="src\test\resources\My Amazing Feature_1001.feature" started="1498575069415" tag="@TIDTEST_ID_PLACEHOLDERREV0.3.0"><file><![CDATA[#Auto generated Octane revision tag
+@TIDTEST_ID_PLACEHOLDERREV0.3.0
+Feature: My Amazing Feature
+	Scenario: Amazing scenario
+		Given user is logged in
+		When she looks at this feature
+		Then she is amazed
+		And she is happy
+		But then she is sad]]></file><scenarios><scenario name="Amazing scenario"><steps><step duration="76929026" name="Given user is logged in" status="passed"/><step duration="16129" name="When she looks at this feature" status="passed"/><step duration="19794" name="Then she is amazed" status="passed"/><step duration="16495" name="And she is happy" status="passed"/><step duration="15762" name="But then she is sad" status="passed"/></steps></scenario></scenarios></feature></features>

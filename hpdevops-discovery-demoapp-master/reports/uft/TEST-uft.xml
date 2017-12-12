@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+    <ReportNode type="testrun">
+        <ReportNode type="Iteration">
+            <ReportNode type="Action">
+                <Data>
+                    <Name>Action1</Name>
+                    <Description/>
+                    <StartTime>2017-09-13 14:54:18</StartTime>
+                    <Result>Done</Result>
+                    <InputParameters/>
+                    <Extension>
+                        <IconKey>e3c9c161acd3437d9f280da5ea6ccb8b</IconKey>
+                        <IsPlainTextNodeName>True</IsPlainTextNodeName>
+                    </Extension>
+                </Data>
+            </ReportNode>
+            <Data>
+                <Name>Action0</Name>
+                <Description/>
+                <StartTime>2017-09-13 14:54:18</StartTime>
+                <Duration>0</Duration>
+                <Result>Done</Result>
+                <Extension>
+                    <IconKey>f714af326834475d9f6a9a756259159b</IconKey>
+                    <IsPlainTextNodeName>True</IsPlainTextNodeName>
+                </Extension>
+                <Index>1</Index>
+                <TestedApplications/>
+            </Data>
+        </ReportNode>
+        <Data>
+            <Name>GUITest1 - Copy - Copy (6) - Copy - Copy</Name>
+            <ToolName>HPE Unified Functional Testing</ToolName>
+            <ToolVersion>14.1</ToolVersion>
+            <Description/>
+            <StartTime>2017-09-13 14:54:18</StartTime>
+            <Duration>0</Duration>
+            <Result>Done</Result>
+            <InputParameters/>
+            <Extension>
+                <IconKey>c9b76cc30369460c988af73e0879bfc8</IconKey>
+                <IsPlainTextNodeName>True</IsPlainTextNodeName>
+            </Extension>
+            <Environment>
+                <Timezone>+03:00:00</Timezone>
+                <Locale>English (United States)</Locale>
+                <User>HPESWLAB\bespalov</User>
+                <CpuInfo>Intel(R) Xeon(R) CPU L5640 @ 2.27GHz</CpuInfo>
+                <NumberOfCores>4</NumberOfCores>
+                <TotalMemory>8192</TotalMemory>
+                <HostName>hpeswlab.net\MYD-VM08531</HostName>
+                <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+            </Environment>
+            <TestedApplications/>
+            <Links>
+                <Link type="DataTable" reference="Default.xls" displayname="Default Data Table"/>
+            </Links>
+        </Data>
+    </ReportNode>
+    <GeneralInfo>
+        <ResultName>GUITest1 - Copy - Copy (6) - Copy - Copy</ResultName>
+        <RunStartTime>2017-09-13 14:54:18</RunStartTime>
+        <Timezone>+03:00:00</Timezone>
+        <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
+        <OrchestrationToolVersion>14.1</OrchestrationToolVersion>
+    </GeneralInfo>
+</Results>

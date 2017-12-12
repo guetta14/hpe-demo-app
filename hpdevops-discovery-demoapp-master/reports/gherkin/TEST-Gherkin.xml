@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features version="1">
+   <feature name="My Amazing Feature" path="src\test\resources\My amazing feature_4002.feature" started="1483863962716" tag="@TID4002REV0.2.0">
+      <file><![CDATA[#Auto generated NGA revision tag
+@TID4002REV0.2.0
+Feature: My Amazing Feature
+
+	Scenario: Amazing scenario
+		Given user is logged in
+		When she looks at this feature
+		Then she is amazed!]]></file>
+      <scenarios>
+         <scenario name="Amazing scenario">
+            <steps>
+                <step duration="109672013" name="Given user is logged in" status="failed"/>
+                <step duration="24542" name="When she looks at this feature" status="failed"/>
+                <step duration="14725" name="Then she is amazed!" status="failed"/>
+            </steps>
+         </scenario>
+      </scenarios>
+   </feature>
+   <feature name="dfg f f" path="src\test\resources\gherkin_2008.feature" started="1483863962887" tag="@TID2008REV0.2.0">
+      <file><![CDATA[#Auto generated NGA revision tag
+@TID2008REV0.2.0
+Feature: dfg f f
+	Scenario: fdsg 
+		Given sfdgdf
+		When sdfgf
+		Then sdg]]></file>
+      <scenarios>
+         <scenario name="fdsg">
+            <steps>
+               <step duration="49084" name="Given sfdgdf" status="passed" />
+               <step duration="20080" name="When sdfgf" status="passed" />
+               <step duration="29450" name="Then sdg" status="passed" />
+            </steps>
+         </scenario>
+      </scenarios>
+   </feature>
+   <feature name="My Fancy Feature" path="src\test\resources\my-fancy-feature.feature" started="1483863962891" tag="">
+      <file><![CDATA[Feature: My Fancy Feature
+  Scenario: Fancy button opens the fancy dialog
+    Given user is logged in
+    And she is in the fancy module
+    When she clicks the fancy button
+    Then the facny dialog pops up
+
+  Scenario: Fancy dialog is fancy
+    Given user is logged in
+    And the fancy dialog is opened
+    When she looks at it
+    Then it looks fancy]]></file>
+      <scenarios>
+         <scenario name="Fancy button opens the fancy dialog">
+            <steps>
+               <step duration="38375" name="Given user is logged in" status="passed" />
+               <step duration="21865" name="And she is in the fancy module" status="passed" />
+               <step duration="15172" name="When she clicks the fancy button" status="passed" />
+               <step duration="15617" name="Then the facny dialog pops up" status="passed" />
+            </steps>
+         </scenario>
+         <scenario name="Fancy dialog is fancy">
+            <steps>
+               <step duration="47299" name="Given user is logged in" status="passed" />
+               <step duration="19188" name="And the fancy dialog is opened" status="passed" />
+               <step duration="23649" name="When she looks at it" status="passed" />
+               <step duration="17848" name="Then it looks fancy" status="passed" />
+            </steps>
+         </scenario>
+      </scenarios>
+   </feature>
+</features>
